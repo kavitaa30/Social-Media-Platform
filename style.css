@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f2f5;
+  }
+  
+  header {
+    background-color: #4267b2;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .profile, .news-feed, .sidebar {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile, .sidebar {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .news-feed {
+    flex: 3;
+    margin: 0 10px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #postContent {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
